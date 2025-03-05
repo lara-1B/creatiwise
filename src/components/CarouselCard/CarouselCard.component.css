@@ -1,0 +1,58 @@
+.carousel-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.card-right {
+    position: relative;
+    flex: 2;
+    padding-left: 60px;
+}
+
+.quote-bg {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 100px;
+    opacity: 0.4;
+}
+
+.quote-text {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+}

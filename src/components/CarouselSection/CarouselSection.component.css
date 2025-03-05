@@ -1,0 +1,36 @@
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.carousel-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.carousel-btn {
+    background: white;
+    color: black;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background: #ddd;
+}
