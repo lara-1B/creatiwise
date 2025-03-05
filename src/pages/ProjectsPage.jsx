@@ -1,9 +1,10 @@
 import Navbar from "../components/Navbar/Navbar.component";
 const ProjectsPage =()=>{
     return(
-        <div>
+        <div className="projects-page">
             <Navbar/>
-            <p> Hi this is the Project page</p>
+            <p className="center-text"> Hi this is the Project page</p>
+            <p className="center-text"> This page is under construction</p>
         </div>
     )
 }

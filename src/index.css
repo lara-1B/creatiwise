@@ -48,3 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+
+.center-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.projects-page, .contact-page, .about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

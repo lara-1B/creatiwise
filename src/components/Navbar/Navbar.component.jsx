@@ -6,11 +6,9 @@ const Navbar = () => {
     const location = useLocation(); 
     return (
         <nav className="navbar">
-            {/* Logo */}
             <div className="logo">
                 <img src={Images.logo} alt="Logo" />
             </div>
-            {/* Navigation Links */}
             <ul className="nav-links">
                 <li>
                     <Link to="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`}>Home</Link>
@@ -25,7 +23,6 @@ const Navbar = () => {
                     <Link to="/contact" className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`}>Contact</Link>
                 </li>
             </ul>
-            {/* Hire Me Button */}
             <button className="hire-button">Hire Me</button>
         </nav>
     );

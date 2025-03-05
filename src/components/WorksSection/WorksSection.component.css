@@ -5,7 +5,6 @@
     color: white;
 }
 
-/* Header */
 .works-header {
     display: flex;
     align-items: center;
@@ -39,7 +38,6 @@
     opacity: 1;
 }
 
-/* Container */
 .works-container {
     display: flex;
     flex-direction: column;

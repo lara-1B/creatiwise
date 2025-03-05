@@ -1,11 +1,9 @@
 .expertise {
     width: 80%;
-    margin: 0 auto; /* Centering the section */
+    margin: 0 auto; 
     padding: 60px 0;
     color: white;
 }
-
-/* Header */
 .expertise-header {
     display: flex;
     align-items: center;
@@ -19,14 +17,12 @@
     height: 25px;
 }
 
-/* Expertise Grid */
 .expertise-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px; /* Increased gap for better spacing */
+    gap: 40px; 
 }
 
-/* Expertise Item */
 .expertise-item h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -36,6 +32,6 @@
     font-size: 1rem;
     opacity: 0.8;
     line-height: 1.6;
-    margin-bottom: 20px; /* Added space between paragraphs */
-    max-width: 700px; /* Reduced width for better alignment */
+    margin-bottom: 20px; 
+    max-width: 700px; 
 }
